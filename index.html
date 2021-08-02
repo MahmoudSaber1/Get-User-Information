@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Get User IP</title>
+        <style>
+            div {
+                min-width: 300px;
+                min-height: 50px;
+                border: 1px solid #9e9e9e;
+                background: #9e9e9e;
+                color: #ffeb3b;
+                border-radius: 10px;
+                /* text-align: center; */
+                display: flex;
+                align-items: center;
+                margin: auto;
+                font-size: 40px;
+                justify-content: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="data"></div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script>
+            
+            function callback(response) {
+                console.log(response)
+                document.getElementById("data").innerHTML = "Your Ip is : " + response.IPv4;
+            }
+
+            $.ajax({
+                url : "https://geoip-db.com/jsonp/",
+                dataType: "jsonp"
+            })
+        </script>
+    </body>
+</html>
