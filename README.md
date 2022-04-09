@@ -8,7 +8,12 @@
 
 > Project to show some information about the user
 
-### 🏠 [Homepage](https://rogar-iq.github.io/Get-User-Information/)
+## Screenshot
+
+![GetUserIp(Desktop)](https://user-images.githubusercontent.com/67934444/162567253-aec430a8-df5e-4e2c-9c94-79811798b1f4.png)
+![GetUserIp(Mobile)](https://user-images.githubusercontent.com/67934444/162567267-42c3ef21-fd6f-4b5e-bb13-455e42cc619d.png)
+
+### 🏠 [Live-Demo](https://rogar-iq.github.io/Get-User-Information/)
 
 ## Usage
 
@@ -27,6 +32,3 @@ Open URL
 ## Show your support
 
 Give a ⭐️ if this project helped you!
-
-## Screenshot
-![GetUserIp(Desktop)](https://user-images.githubusercontent.com/67934444/162567172-c7179afb-2c33-400d-9186-0fe455513d5f.png)![GetUserIp(Mobile)](https://user-images.githubusercontent.com/67934444/162567176-89a47aed-173d-422d-8754-af59e5b837ad.png)
