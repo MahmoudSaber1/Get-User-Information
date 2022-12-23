@@ -15,7 +15,7 @@
 
 ### 🏠 [Live-Demo](https://get-user-information.netlify.app/)
 
-## Usage
+## Technology Used
 
 ```sh
 - HTML
